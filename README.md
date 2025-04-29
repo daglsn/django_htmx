@@ -1,9 +1,11 @@
 # Django HTMX Book Manager
 
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![HTMX](https://img.shields.io/badge/HTMX-1.9.2-%23FF6F00?style=for-the-badge)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-4.0%2B-green?logo=django)
+![HTMX](https://img.shields.io/badge/HTMX-1.9%2B-orange)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-%237952B3?logo=bootstrap)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?logo=javascript)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?logo=css3)
 
 Простое CRUD-приложение для управления книгами с использованием Django и HTMX, с поддержкой интернационализации и адаптивным дизайном.
 
