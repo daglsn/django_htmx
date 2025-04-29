@@ -55,7 +55,7 @@
 1. Клонировать репозиторий:
 
 ```bash
-git clone https://github.com/daglsn/django-htmx-books.git
+git clone https://github.com/daglsn/django_htmx.git
 ```
 
 2. Создать и активировать виртуальное окружение:
