@@ -1,0 +1,115 @@
+/* Основные настройки страницы: светлый фон и отступы */
+body {
+    /* padding-top: 56px; */
+    background-color: rgb(246, 246, 246); /* Светло-серый фон */
+    color: #212529; /* Основной цвет текста */
+    min-height: 100vh;
+}
+
+/* Контейнер с легкой тенью для глубины */
+.container {
+    background-color: #ffffff; /* Белый фон контейнера */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+    margin-top: 1rem;
+}
+
+/* Заголовок таблицы - светлый акцент */
+thead {
+    background-color: #e9ecef; /* Светло-серый фон */
+    border-bottom: 2px solid #dee2e6; /* Граница-разделитель */
+}
+
+/* Тело таблицы - чисто белый */
+tbody {
+    background-color: #ffffff;
+    border-color: #dee2e6; /* Цвет границ */
+}
+
+/* Ячейки таблицы - размер и границы */
+td {
+    font-size: 14px;
+    vertical-align: middle !important;
+    border-color: #dee2e6 !important; /* Серая граница */
+}
+
+/* Строки таблицы - подсветка при наведении */
+tr {
+    line-height: 26px;
+    min-height: 26px;
+    height: 26px;
+    transition: background-color 0.2s ease;
+}
+
+tr:hover {
+    background-color: #f8f9fa !important; /* Светло-серый при наведении */
+}
+
+/* Ссылки - синий акцент */
+a {
+    text-decoration: none;
+    color: #0d6efd; /* Синий цвет Bootstrap */
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0b5ed7; /* Темно-синий при наведении */
+}
+
+/* Поля ввода - стиль в светлой теме */
+.form-control-sm {
+    line-height: 24px;
+    min-height: 24px;
+    height: 24px;
+    background-color: #fff !important;
+    border: 1px solid #ced4da !important; /* Стандартная серая граница */
+    color: #212529 !important;
+}
+
+.form-control-sm:focus {
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25) !important;
+}
+
+/* Серая метка для прочитанных книг */
+.grey-text {
+    color: #6c757d !important; /* Серый из палитры Bootstrap */
+    text-decoration: line-through; /* Перечёркивание текста */
+}
+
+/* Кнопки статуса */
+.status-button {
+    width: 107px;
+    transition: transform 0.1s ease;
+}
+
+/* Общие кнопки */
+.any-button {
+    width: 80px;
+}
+
+/* Кнопки в таблице */
+.table-button {
+    font-size: 13px;
+    padding: 0.25rem 0.5rem;
+}
+
+/* Иконки сортировки */
+.bi-arrow-down-square,
+.bi-arrow-up-square {
+    color: #6c757d; /* Серый цвет */
+    transition: all 0.2s ease;
+    margin-left: 0.25rem;
+}
+
+.bi-arrow-down-square:hover,
+.bi-arrow-up-square:hover {
+    color: #0d6efd; /* Синий при наведении */
+    transform: scale(1.1);
+}
+
+.disabled-button {
+      opacity: 0.5;
+      pointer-events: none;
+ }
