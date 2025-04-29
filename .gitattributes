@@ -1,0 +1,15 @@
+# Явно указываем языки для корректной статистики
+*.py linguist-language=Python
+*.html linguist-language=Python  # Шаблоны Django как Python
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+
+
+# Исключаем служебные файлы
+/venv/** linguist-vendored
+/.venv/** linguist-vendored
+/migrations/** linguist-generated
+/rosetta/** linguist-documentation
+
+# Указываем тип для PO-файлов
+*.po linguist-language=PO Fileп
