@@ -1,8 +1,11 @@
 # Django HTMX Book Manager
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![Django](https://img.shields.io/badge/Django-4.0%2B-green)](https://djangoproject.com)
-[![HTMX](https://img.shields.io/badge/HTMX-1.9%2B-orange)](https://htmx.org)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-4.0%2B-green?logo=django)
+![HTMX](https://img.shields.io/badge/HTMX-1.9%2B-orange)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-%237952B3?logo=bootstrap)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?logo=javascript)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?logo=css3)
 
 Простое CRUD-приложение для управления книгами с использованием Django и HTMX, с поддержкой интернационализации и адаптивным дизайном.
 
@@ -55,7 +58,7 @@
 1. Клонировать репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/django-htmx-books.git
+git clone https://github.com/daglsn/django_htmx.git
 ```
 
 2. Создать и активировать виртуальное окружение:
